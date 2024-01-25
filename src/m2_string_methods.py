@@ -1,7 +1,9 @@
 txt = "The quick brown fox jumps over the lazy dog."
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
+print(txt.upper())
+print(txt.lower())
 #   For the following exercises, you may need to reference the material on 
 #   string methods.
 #
@@ -17,7 +19,8 @@ txt = "The quick brown fox jumps over the lazy dog."
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
+a=print(txt.replace("brown","red"))
 #   Immediately below this _TODO_, write code that:
 #     - Replaces the word 'brown' with a different color of your choosing.
 #     - Saves the result to a variable name
@@ -27,7 +30,8 @@ txt = "The quick brown fox jumps over the lazy dog."
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (2 pts)
+# DONE: 3. (2 pts)
+print(txt.title())
 #   Immediately below this _TODO_, write code that:
 #     - Capitalizes the first letter of each word in the string (HINT: look
 #       through the methods resource in the pre-class materials that might be

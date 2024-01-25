@@ -1,7 +1,9 @@
 txt = "  The quick brown fox jumps over the lazy dog.  "
 
+
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
+print(txt.strip())
 #   Notice the string   txt   that I have defined above. First, let's clear up
 #   those extra spaces.
 #
@@ -18,7 +20,9 @@ txt = "  The quick brown fox jumps over the lazy dog.  "
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
+a=(txt.strip())
+print(a[4:9])
 #   From now on, do not reassign the variable   txt   . You will be using it as
 #   your starter string for the rest of these exercises.
 #
@@ -32,7 +36,11 @@ txt = "  The quick brown fox jumps over the lazy dog.  "
 ###############################################################################
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
+ble="The man jumps over a wall"
+c=a+ " "+ ble
+print(c)
+
 #   Let's add another sentence to our string.
 #
 #   Immediately below this _TODO_, write code that:
